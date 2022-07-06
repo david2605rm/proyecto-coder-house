@@ -1,53 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="elementos pag/flor-nocturna.png">
-    <title>Flor nocturna velas</title>
-    <link rel="stylesheet" href="../css-proyecto/css proyecto.css">
-</head>
-<body>
-    <nav class="links">
-        <a href="../index.html"><img src="../elementos-pag/fotos/flor-nocturna.png" width="100" height="100" alt="logo flor nocturna"/></a>
-        <h2>Arte y naturaleza</h2>
-        <ul>
-            <li><a href="../paginas-complementarias/Nosotros.html">Nosotros</a></li>
-            <li><a href="../paginas-complementarias/Producto.html">Producto</a></li>
-            <li><a href="../paginas-complementarias/Tips.html">Tips</a></li>
-            <li><a href="../paginas-complementarias/Contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css-proyecto/style2.css">
+    <title>Flor nocturna</title>
+  </head>
+  <body>
+    <!-- inicia el nav -->
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="container-fluid">
+         <a class="navbar-brand" href="../index2.html">
+            <img src="../elementos-pag/fotos/flor-nocturna.png" width="100" height="100" alt="logo flor nocturna"/>
+         </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas-complementarias/Nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas-complementarias/Producto.html">Producto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas-complementarias/Tips.html">Tips</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas-complementarias/Contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>   
     <header class="header2 head">
         <h1 class="titles">Nuestros productos</h1>
     </header>
-    <main class="products">
+    <main class="maincell">
+        <!-- 1er producto -->
         <div class="title-p">
             <h4 class="subtitles1-p">Vela aromatica</h4>
         </div>
-        <article class="article-p">
-            <img class="img-p" src="../elementos-pag/fotos/vela-aromatica.JPG" alt="vela aromatica" width="700" height="400">
-            <p class="text-p">Esta vela es perfecta para la decoración y ambientaci­ón de tus espacios, teniendo la opción de elegir entre diferentes olores. Dejate envolver por estos aromas delicados y limpios al ambiente, con flores naturales que te acompañaran en cualquier espacio de tu vida.</p>
-        </article>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <img class="img-p" src="../elementos-pag/fotos/vela-aromatica.JPG" alt="vela aromatica">
+              </div>
+              <div class="col">
+                <p class="text-p">Esta vela es perfecta para la decoración y ambientaci­ón de tus espacios, teniendo la opción de elegir entre diferentes olores. Dejate envolver por estos aromas delicados y limpios al ambiente, con flores naturales que te acompañaran en cualquier espacio de tu vida.</p>
+              </div>
+            </div>
+        </div>
+        <!-- fin 1er producto -->
+        <!-- 2do producto -->
         <div class="title-p2">
             <h4 class="subtitles1-p">Vela de masajes</h4>
+        </div>    
+        <div class="container px-4">
+            <div class="row gx-5">
+              <div class="col">
+                <p class="text-p">Con esta hermosa vela tendras la opcion de iluminar tus espacios, pero ademas con estas podras realizar masajes con un aceite muy suave y relajante.</p>
+              </div>
+              <div class="col">
+                <img class="img-p" src="../elementos-pag/fotos/vela-masajes.JPG" alt="vela de masajes" width="700" height="400">
+              </div>
+            </div>
         </div>
-        <article class="article-p2">
-            <img class="img2-p" src="../elementos-pag/fotos/vela-masajes.JPG" alt="vela de masajes" width="700" height="400">
-            <p class="text-p">Con esta hermosa vela tendras la opcion de iluminar tus espacios, pero ademas con estas podras realizar masajes con un aceite muy suave y relajante.</p>
-        </article>
+        <!-- fin 2do producto -->
+        <!-- 3er producto -->
         <div class="title-p3">
             <h4 class="subtitles1-p">Vela de ceramica artesanal</h4>
         </div>
-        <article class="article-p3">           
-            <img class="img3-p" src="../elementos-pag/fotos/vela-ceramica.jpeg" alt="vela ceramica">
-            <p class="text-p">Esta hermosa vela esta en una bella  base elaborada por artesanos del Carmen de viboral, Antioquia. Esto le da una muy buena estetica para decorar espacios.</p>
-        </article>
+        <div class="container px-4">
+            <div class="row gx-5">
+              <div class="col">
+                <img class="img-p" src="../elementos-pag/fotos/vela-ceramica.jpeg" alt="vela ceramica">
+              </div>
+              <div class="col">
+                <p class="text-p">Esta hermosa vela esta en una bella  base elaborada por artesanos del Carmen de viboral, Antioquia. Esto le da una muy buena estetica para decorar espacios.</p>
+              </div>
+            </div>
+        </div>
+        <!-- fin 3er producto -->
     </main>
     <section class="form-p">
         <fieldset>
-            <legend>Producto a elegir</legend>
+            <legend class="subtitles1">Producto a elegir</legend>
             <label for="aromatica">Vela aromatica</label>
             <input type="checkbox" id="aromatica" value="aromatica">
             <br>
@@ -58,16 +101,15 @@
             <input type="checkbox" id="ceramica" value="ceramica">
         </fieldset>
         <fieldset>
-            <legend>Como prefieres tu entrega</legend>
+            <legend class="subtitles1">Como prefieres tu entrega</legend>
             <label for="envio">envio</label>
             <input type="radio" id="envio" value="envio" name="entrega">
             <br>
             <label for="recoger">ir a tienda</label>
             <input type="radio" id="recoger" value="recoger" name="entrega">
         </fieldset>
-        <br>
         <fieldset>
-            <legend>Cual sera el metodo de pago</legend>
+            <legend class="subtitles1">Cual sera el metodo de pago</legend>
             <select name="" id="metodo-pago">
                 <option value="entrega">Contra entrega</option>
                 <option value="tarjeta">tarjeta</option>
@@ -75,9 +117,9 @@
                 <option value="paypal">paypal</option>
             </select>
         </fieldset>
-        <br>
-        <button>Enviar</button>    
-    </section>
+        <div class="buttom-p">
+            <button type="button" class="text-bu">Enviar</button>
+        </div>
     <aside class="redes">    
         <h6>Siguenos en nuestras Redes sociales</h3>
             <div>
