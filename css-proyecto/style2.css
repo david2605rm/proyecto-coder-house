@@ -97,6 +97,14 @@ aside{
     font-weight: 600;
 }
 
+.space{
+    padding-top: 4%;
+}
+
+.center-img{
+    margin: 0% 35%;
+}
+
 /* fin clases generales */
 
 /* css pag inicio */
@@ -221,10 +229,11 @@ aside{
 }
 
 .img3-p{
-    width: 400px;
-    height: 400px;
+    width: 60%;
+    height: 70%;
+    margin-left: 10%;
+    border: solid 5px #716B4C;
 }
-
 
 .text-p{
     color: black;
@@ -232,6 +241,21 @@ aside{
     font-size: 1.2rem;
     font-weight: 600;
     text-align: center;
+}
+
+.text-se{
+    color: black;
+    font-family:'poppins', sans-serif ;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0% 3%;
+}
+
+.cont-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 576px) {
