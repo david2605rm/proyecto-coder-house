@@ -1,0 +1,17 @@
+{
+  "name": "proyecto-coder-house",
+  "version": "1.0.0",
+  "description": "proyecto coder house",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss css-proyecto/style2.css",
+		"watch-css": "nodemon -e scss -x \"npm     run build-css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

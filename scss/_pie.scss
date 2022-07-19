@@ -1,0 +1,42 @@
+aside{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    div{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        :hover{
+            transform: scale(1.10, 1.10);
+        transition: transform 2s;
+        img{
+            margin: 2%;
+            h6{
+                padding-top: 20px;
+                color:$color-3;
+                font-size: $text-gr;
+                font-family:$pomp;
+                text-align: center;
+            }
+        }
+        }
+    }
+}
+
+footer{
+    background-color: $color-1;
+    display: flex;
+    justify-content: center;
+    p{
+        padding-top: 30px;
+        padding-bottom: 20px;        
+        font-family:$popp;
+        font-size: $text-md;
+        font-weight:$ex-grueso;
+        color: white;
+        img{
+            margin: 20px 20px;
+        }
+    }
+}
