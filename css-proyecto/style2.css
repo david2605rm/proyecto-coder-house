@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Pompiere&family=Poppins:wght@200&display=swap");
+nav {
+  background-color: #81A78E; }
+  nav ul li {
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .4s; }
+    nav ul li :hover {
+      color: white;
+      font-weight: 500;
+      background-size: 100% 2px;
+      font-size: 2.5em; }
+    nav ul li a {
+      font-size: 2.2em;
+      color: white;
+      font-family: "Poppins", sans-serif;
+      font-weight: 300; }
+
+aside {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column; }
+  aside div {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center; }
+    aside div :hover {
+      transform: scale(1.1, 1.1);
+      transition: transform 2s; }
+      aside div :hover img {
+        margin: 2%; }
+        aside div :hover img h6 {
+          padding-top: 20px;
+          color: #716B4C;
+          font-size: 2.2em;
+          font-family: "Pompiere", cursive;
+          text-align: center; }
+
+footer {
+  background-color: #81A78E;
+  display: flex;
+  justify-content: center; }
+  footer p {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    color: white; }
+    footer p img {
+      margin: 20px 20px; }
+
+.titles {
+  padding: 2%;
+  text-align: center;
+  color: #716B4C;
+  font-size: 3.5em;
+  font-family: "Pompiere", cursive; }
+
+.subtitles1 {
+  /* para footer */
+  padding-top: 20px;
+  color: #716B4C;
+  font-size: 2.2em;
+  font-family: "Pompiere", cursive;
+  text-align: center; }
+
+.subtitles2 {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  color: #17431F;
+  font-size: 2rem;
+  margin-top: 40px; }
+
+.text {
+  padding: 20px 40px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8em;
+  font-weight: 300; }
+
+.space {
+  padding-top: 4%; }
+
+.center-img {
+  margin: 0% 35%; }
+
+.header {
+  display: flex;
+  background-image: url(elementos-pag/fondos/fondo1.jpg);
+  flex-direction: column;
+  justify-items: center; }
+
+.h-img {
+  border: solid 5px #716B4C;
+  margin-bottom: 4rem;
+  width: 80%;
+  height: 60%; }
+
+.scale-h :hover {
+  transform: scale(1.1, 1.1);
+  transition: transform 2s; }
+
+.div-in {
+  display: block;
+  text-align: center; }
+
+/* grid pag index */
+.grid-in {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 10% 40% 20% 20% 10%;
+  grid-template-areas: "links-i links-i" "head-i head-i" "main-i main-i" "redes redes" "pie pie"; }
+
+.links-i {
+  grid-area: nav; }
+
+.head-i {
+  grid-area: header; }
+
+.main-i {
+  grid-area: main; }
+
+.redes {
+  grid-area: aside; }
+
+.pie {
+  grid-area: footer; }
+
+.text-n {
+  padding: 20px 40px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0% 4%; }
+
+.header2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ededec; }
+
+.img-n {
+  border: solid 5px #716B4C;
+  margin-bottom: 20px;
+  width: 80%;
+  height: 80%; }
+
+.img2-n {
+  border: solid 5px #716B4C;
+  margin-top: 5%;
+  width: 80%;
+  height: 80%; }
+
+.article1 {
+  margin-right: 15%; }

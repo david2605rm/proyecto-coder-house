@@ -1,0 +1,34 @@
+.titles{
+    padding: 2%;
+    text-align: $txc;
+    color: $color-3;
+    font-size: $titles;
+    font-family: $pomp;
+}
+.subtitles1{/* para footer */
+    padding-top: 20px;
+    color: $color-3;
+    font-size: $text-gr;
+    font-family:$pomp;
+    text-align: $txc;
+}
+.subtitles2{
+    text-align: $txc;
+    font-family:$ca;
+    color: $color-vo;
+    font-size: 2rem;
+    margin-top: 40px;
+}
+.text{
+    padding: 20px 40px;
+    color: black;
+    font-family:$popp;
+    font-size: $text-md;
+    font-weight: $md-grueso;
+}
+.space{
+    padding-top: 4%;
+}
+.center-img{
+    margin: 0% 35%;
+}

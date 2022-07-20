@@ -276,19 +276,6 @@ aside{
     margin-right: 15%;
 }
 
-.grid-n{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 10% 10% 30% 30% 10% 10%;
-    grid-template-areas: 
-    "links links"
-    "head head"
-    "team team"
-    "hs hs"
-    "redes redes"
-    "pie pie";
-}
-
 .links{
     grid-area: nav;
 }
