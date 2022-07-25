@@ -19,7 +19,6 @@ nav {
 
 aside {
   display: flex;
-  width: 100%;
   justify-content: center;
   flex-flow: column; }
   aside h6 {
@@ -125,7 +124,11 @@ footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 10% 40% 20% 20% 10%;
-  grid-template-areas: "links-i links-i" "head-i head-i" "main-i main-i" "redes redes" "pie pie"; }
+  grid-template-areas: "links-i links-i"
+ "head-i head-i"
+ "main-i main-i"
+ "redes redes"
+ "pie pie"; }
 
 .links-i {
   grid-area: nav; }
@@ -182,7 +185,8 @@ footer {
 .img-p {
   border: solid 5px #716B4C;
   width: 80%;
-  height: 90%; }
+  height: 90%;
+  text-align: center; }
 
 .img3-p {
   width: 60%;
@@ -207,11 +211,16 @@ footer {
 
 .cont-p {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center; }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 320px) and (max-width: 576px) {
   .maincell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .form-cell {
     display: flex;
     flex-direction: column; } }
 
@@ -274,3 +283,8 @@ footer {
   width: 60%;
   height: 50%;
   border: solid 5px #716B4C; }
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .tips-cell {
+    display: flex;
+    flex-direction: column; } }
