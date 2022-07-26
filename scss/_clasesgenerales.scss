@@ -16,19 +16,22 @@
     text-align: $txc;
     font-family:$ca;
     color: $color-vo;
-    font-size: 2rem;
+    font-size: $subtitle1;
     margin-top: 40px;
 }
 .text{
+    @extend .text-proy;
     padding: 20px 40px;
-    color: black;
-    font-family:$popp;
-    font-size: $text-md;
-    font-weight: $md-grueso;
 }
 .space{
     padding-top: 4%;
 }
 .center-img{
     margin: 0% 35%;
+}
+
+.scale-i :hover{
+    transform: scale(1.1, 1.1);
+    transition: transform 2s; 
+    border-color: $color-2;
 }

@@ -12,10 +12,7 @@
 }
 
 .text-t{
-    color: black;
-    font-family:'poppins', sans-serif ;
-    font-size: 1.2rem;
-    font-weight: 600;
+    @extend .text-proy;
     text-align: center;
     margin: 2% 5%;
 }

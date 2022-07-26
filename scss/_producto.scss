@@ -8,32 +8,26 @@
 }
 
 .img-p{
-    border: solid 5px #716B4C;
+    @extend .img-proy;
     width: 80%;
     height: 90%;
     text-align: center;
 }
 
 .img3-p{
+    @extend .img-proy;
     width: 60%;
     height: 70%;
     margin-left: 10%;
-    border: solid 5px #716B4C;
 }
 
 .text-p{
-    color: black;
-    font-family:'poppins', sans-serif ;
-    font-size: 1.2rem;
-    font-weight: 600;
+    @extend .text-proy;
     text-align: center;
 }
 
 .text-se{
-    color: black;
-    font-family:'poppins', sans-serif ;
-    font-size: 1.6rem;
-    font-weight: 600;
+    @extend .text-proy;
     text-align: center;
     margin: 0% 3%;
 }
@@ -65,9 +59,6 @@
 }
 
 .text-bu{
-    color: black;
-    font-family:'poppins', sans-serif ;
-    font-size: 1.5rem;
-    font-weight: 300;
-    border-color: #716B4C;
+    @extend .text-proy;
+    border-color: $color-3;
 }

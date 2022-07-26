@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Pompiere&family=Poppins:wght@200&display=swap");
+.img-proy, .h-img, .img-n, .img2-n, .img-p, .img3-p {
+  border: solid 5px #716B4C;
+  border-radius: 2%; }
+
+.text-proy, .text, .text-n, .text-p, .text-se, .text-bu, .text-t {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  font-weight: 300; }
+
 nav {
   background-color: #81A78E; }
   nav ul li {
@@ -19,6 +29,7 @@ nav {
 
 aside {
   display: flex;
+  width: 100%;
   justify-content: center;
   flex-flow: column; }
   aside h6 {
@@ -83,21 +94,22 @@ footer {
   text-align: center;
   font-family: "Caveat", cursive;
   color: #17431F;
-  font-size: 2rem;
+  font-size: 2.5em;
   margin-top: 40px; }
 
 .text {
-  padding: 20px 40px;
-  color: black;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.8em;
-  font-weight: 300; }
+  padding: 20px 40px; }
 
 .space {
   padding-top: 4%; }
 
 .center-img {
   margin: 0% 35%; }
+
+.scale-i :hover {
+  transform: scale(1.1, 1.1);
+  transition: transform 2s;
+  border-color: #56785F; }
 
 .header {
   display: flex;
@@ -106,14 +118,9 @@ footer {
   justify-items: center; }
 
 .h-img {
-  border: solid 5px #716B4C;
   margin-bottom: 4rem;
   width: 80%;
   height: 60%; }
-
-.scale-h :hover {
-  transform: scale(1.1, 1.1);
-  transition: transform 2s; }
 
 .div-in {
   display: block;
@@ -124,11 +131,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 10% 40% 20% 20% 10%;
-  grid-template-areas: "links-i links-i"
- "head-i head-i"
- "main-i main-i"
- "redes redes"
- "pie pie"; }
+  grid-template-areas: "links-i links-i" "head-i head-i" "main-i main-i" "redes redes" "pie pie"; }
 
 .links-i {
   grid-area: nav; }
@@ -147,10 +150,6 @@ footer {
 
 .text-n {
   padding: 20px 40px;
-  color: black;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.5em;
-  font-weight: 400;
   margin: 0% 4%; }
 
 .header2 {
@@ -160,13 +159,11 @@ footer {
   background-color: #ededec; }
 
 .img-n {
-  border: solid 5px #716B4C;
   margin-bottom: 20px;
   width: 80%;
   height: 80%; }
 
 .img2-n {
-  border: solid 5px #716B4C;
   margin-top: 5%;
   width: 80%;
   height: 80%; }
@@ -183,7 +180,6 @@ footer {
   margin-bottom: 20px; }
 
 .img-p {
-  border: solid 5px #716B4C;
   width: 80%;
   height: 90%;
   text-align: center; }
@@ -191,21 +187,12 @@ footer {
 .img3-p {
   width: 60%;
   height: 70%;
-  margin-left: 10%;
-  border: solid 5px #716B4C; }
+  margin-left: 10%; }
 
 .text-p {
-  color: black;
-  font-family: 'poppins', sans-serif;
-  font-size: 1.2rem;
-  font-weight: 600;
   text-align: center; }
 
 .text-se {
-  color: black;
-  font-family: 'poppins', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 600;
   text-align: center;
   margin: 0% 3%; }
 
@@ -231,10 +218,6 @@ footer {
   margin: 3% 50%; }
 
 .text-bu {
-  color: black;
-  font-family: 'poppins', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 300;
   border-color: #716B4C; }
 
 .main {
@@ -247,10 +230,6 @@ footer {
   text-align: center; }
 
 .text-t {
-  color: black;
-  font-family: 'poppins', sans-serif;
-  font-size: 1.2rem;
-  font-weight: 600;
   text-align: center;
   margin: 2% 5%; }
 
